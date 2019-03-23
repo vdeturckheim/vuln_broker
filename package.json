@@ -1,0 +1,38 @@
+{
+  "name": "vuln_broker",
+  "version": "0.1.0",
+  "description": "Vulnerability BE for Security WG data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/vuln_broker.git"
+  },
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/vuln_broker/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/vuln_broker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "boom": "^7.3.0",
+    "express": "^4.16.4",
+    "express-pino-logger": "^4.0.0",
+    "glob": "^7.1.3",
+    "mongodb": "^3.2.2",
+    "npm-package-versions": "^1.0.1",
+    "pg": "^7.9.0",
+    "semver": "^5.6.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "lab": "^18.0.2"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
